@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+body {
+    background-color: #ffea00;
+}
+
+#score {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+.playerScore, .compScore {
+
+}
+
+.buttons {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    height: 100px;
+    
+}
+
+.card {
+    text-align: center;
+}
+img {
+    cursor: pointer;
+    position: relative;
+}
+img:hover {
+    top: -5px;
+}
+
+#roundtext {
+    margin-top: 250px;
+    font-size: 30px;
+    text-align: center;
+}
+
